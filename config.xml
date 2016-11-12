@@ -28,7 +28,7 @@
   <preference name="AutoHideSplashScreen" value="true" />
   <preference name="SplashScreenDelay" value="3000" />
   <feature name="SocialSharing">
-  <!--<param name="android-package" value="nl.xservices.plugins.SocialSharing" />-->
+  <param name="android-package" value="nl.xservices.plugins.SocialSharing" />
   <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
 </feature>
   <icon src="icon.png"/>
