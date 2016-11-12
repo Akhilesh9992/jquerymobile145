@@ -27,6 +27,10 @@
   <plugin name="cordova-plugin-whitelist" source="npm" spec="~1.2.1"/>
   <preference name="AutoHideSplashScreen" value="true" />
   <preference name="SplashScreenDelay" value="3000" />
+  <feature name="SocialSharing">
+  <!--<param name="android-package" value="nl.xservices.plugins.SocialSharing" />-->
+  <gap:plugin name="cordova-plugin-x-socialsharing" source="npm" />
+</feature>
   <icon src="icon.png"/>
   <platform name="android">
     <icon src="www/res/icon/android/icon-36-ldpi.png" density="ldpi"/>
